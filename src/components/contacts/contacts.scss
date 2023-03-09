@@ -2,15 +2,28 @@
   display: flex;
   flex-direction: row;
 
+  &__image {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+  }
+
+  &__image_phone {
+    background: url('../../assets/images/phone.svg') center no-repeat, #8892EC;
+  }
+
+  &__image_email {
+    background: url('../../assets/images/email.svg') center no-repeat, #8892EC;
+  }
+
+  &__image_clock {
+    background: url('../../assets/images/clock.svg') center no-repeat, #8892EC;
+  }
+
   &__item {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    img {
-      width: 37px;
-      height: 37px;
-      border-radius: 50%;
-    }
   }
 
   &__header {
